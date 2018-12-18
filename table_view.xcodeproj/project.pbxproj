@@ -12,6 +12,8 @@
 		634B993B21ABAF1C00D2ED9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634B993921ABAF1C00D2ED9B /* Main.storyboard */; };
 		634B993D21ABAF1E00D2ED9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634B993C21ABAF1E00D2ED9B /* Assets.xcassets */; };
 		634B994021ABAF1E00D2ED9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634B993E21ABAF1E00D2ED9B /* LaunchScreen.storyboard */; };
+		634B994821ABB14300D2ED9B /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634B994721ABB14300D2ED9B /* StudentTableViewCell.swift */; };
+		63F8766221AD317900BA456A /* TeacherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F8766121AD317900BA456A /* TeacherTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		634B993C21ABAF1E00D2ED9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		634B993F21ABAF1E00D2ED9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		634B994121ABAF1F00D2ED9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634B994721ABB14300D2ED9B /* StudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
+		63F8766121AD317900BA456A /* TeacherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		634B993421ABAF1C00D2ED9B /* table_view */ = {
 			isa = PBXGroup;
 			children = (
+				63F8766121AD317900BA456A /* TeacherTableViewCell.swift */,
 				634B993521ABAF1C00D2ED9B /* AppDelegate.swift */,
 				634B993721ABAF1C00D2ED9B /* ViewController.swift */,
+				634B994721ABB14300D2ED9B /* StudentTableViewCell.swift */,
 				634B993921ABAF1C00D2ED9B /* Main.storyboard */,
 				634B993C21ABAF1E00D2ED9B /* Assets.xcassets */,
 				634B993E21ABAF1E00D2ED9B /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F8766221AD317900BA456A /* TeacherTableViewCell.swift in Sources */,
 				634B993821ABAF1C00D2ED9B /* ViewController.swift in Sources */,
 				634B993621ABAF1C00D2ED9B /* AppDelegate.swift in Sources */,
+				634B994821ABB14300D2ED9B /* StudentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
